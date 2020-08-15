@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore gems
+/vendor/bundle
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*

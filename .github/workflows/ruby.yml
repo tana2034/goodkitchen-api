@@ -36,7 +36,7 @@ jobs:
         run: bundle install
       
       - name: Set up database
-        run: bundle exec rake db:test:prepare
+        run: bundle exec rake db:test:load
 
       - name: Run tests
         run: bundle exec rails spec
